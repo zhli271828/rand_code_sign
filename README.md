@@ -4,11 +4,13 @@ This is a proof of concept implementation of the paper [LXY20].
 The implementation is tested on Linux with SageMath version 8.2. 
 
 The parameters for 80-bit and 128-bit security are defined. Below we assume 80-bit parameters are used.
+
 (i) Precompute the rejection rate for rejection sampling.
-$ sage precomp.sage 80
-parameters n=66467, u=49, w=6, tau=0.23925000, Xi=70
-The maximal rejection rate = 48.98963821
-precomputation saved in file ./data/80/precomp_data80.sobj
+
+$ sage precomp.sage 80  
+parameters n=66467, u=49, w=6, tau=0.23925000, Xi=70  
+The maximal rejection rate = 48.98963821  
+precomputation saved in file ./data/80/precomp_data80.sobj  
 
 (ii) Generate pk and sk for 80-bit and key id 'keyid1'
 $ sage keygen.sage 80 keyid1
