@@ -27,4 +27,4 @@ parameters n=66467, u=49, w=6, tau=0.23925000, Xi=70
 verification succeeds for message "msg"  
 
 
-LXY20. Zhe Li, Chaoping Xing and Sze Ling Yeo. A New Code Based Signature Scheme without Trapdoors.
+LXY20. Zhe Li, Chaoping Xing and Sze Ling Yeo. A New Code Based Signature Scheme without Trapdoors, eprint [2020/1250](https://eprint.iacr.org/2020/1250).
